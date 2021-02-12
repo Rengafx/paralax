@@ -1,0 +1,117 @@
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.logo {
+    color: white;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu {
+    position: fixed;
+    background-color: #2a2a2a;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu li {
+    padding: 20px;
+    display: inline;
+    list-style: none;
+}
+
+.menu li a {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: tomato;
+    border-radius: 20px;
+}
+
+.img-inicio {
+    width: 100%;
+    background-image: url("foto1.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffff;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    break-after: 20px;
+}
+
+.container {
+    object-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+}
+
+.div1 {
+    display: flex;
+    background-color: black;
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+.div2 {
+    background-color: black;
+    margin-top: 300px;
+    width: 250px;
+    height: 250px;
+}
+
+.div3 {
+    background-color: black;
+    margin-top: 300px;
+    width: 250px;
+    height: 250px;
+}
+
+.img-site {
+    background-image: url("paisagem-natural.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffff;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    break-after: 10px;
+}
+
+.section2 {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 500px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2a2a2a;
+    width: 100%;
+    height: 60px;
+}
+.footer p{
+    margin: 0 auto;
+    align-items: center;
+}
